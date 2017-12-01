@@ -106,7 +106,7 @@ namespace Maps.Controllers {
 
       int id_point = this.addPoint(centerString);
 
-      Lea lea = db.Leas.FirstOrDefault(l => l.area == area && l.center == centerPoint.id_point &&
+      Lea lea = db.Leas.FirstOrDefault(l => l.area == area && l.center == id_point &&
        l.color == color && l.name == name);
 
       if (lea == null) {
