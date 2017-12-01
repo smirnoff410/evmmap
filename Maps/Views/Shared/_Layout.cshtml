@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        width: 89%;
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+        header{
+            background: black;
+            height: 50px;
+        }
+        .left_bar{
+            display: inline-block;
+            background: black;
+            width: 5%;
+            height: 100%;
+            float: left;
+        }
+        section{
+            height: 100%;
+        }
+        .wrap{
+            width: 95%;
+            height: 100%;
+            display: inline-block;
+        }
+    </style>
+      @Scripts.Render("~/bundles/modernizr")
+  </head>
+<body>
+    @RenderBody()
+</body>
+</html>

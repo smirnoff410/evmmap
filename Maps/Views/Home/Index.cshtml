@@ -1,0 +1,10 @@
+﻿<header></header>
+<section>
+   <div class="left_bar"></div>
+   <div align="center" class="wrap"><div id="map"></div> </div>
+</section>    
+@*<script src="index_script.js"></script>*@
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+@*@RenderSection("scripts", required: false)*@
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD05cEiQx_b5_srzXIZu-xA3KuwMM2dWkA&libraries=drawing&callback=initMap" async defer></script>
